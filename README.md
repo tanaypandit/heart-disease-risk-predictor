@@ -1,4 +1,4 @@
-# ❤️ Heart Disease Risk Prediction — End-to-End ML Project
+# ❤️ Heart Disease Risk Prediction Using Machine Learning
 
 A complete, portfolio-ready machine learning project that predicts a patient's risk
 of heart disease from 13 clinical measurements, built on the Cleveland Heart
