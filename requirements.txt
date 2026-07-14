@@ -1,0 +1,17 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn==1.7.2
+xgboost>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+shap>=0.44
+streamlit>=1.30
+joblib>=1.3
+jupyter>=1.0
+
+# NOTE: scikit-learn is pinned exactly. The saved model in models/*.pkl
+# was serialized with this scikit-learn version. Loading it with a
+# different sklearn version can raise errors like:
+#   AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+# If you must use a different sklearn version, re-run the training notebook
+# (notebooks/heart_disease_analysis.ipynb) first to regenerate a matching pickle.
